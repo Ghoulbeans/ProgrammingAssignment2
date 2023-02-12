@@ -1,9 +1,9 @@
 ## This code uses scoping rules to cache values while producing the 
 ## inverse of an invertable matrix. This process is closely based off of the 
-## mean vector demo 
+## mean vector demo.
 
 ## As with the demo, this function sets & gets the matrix, then sets & gets the 
-## value of the inverse of the matrix
+## value of the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
     nvrs <- NULL
